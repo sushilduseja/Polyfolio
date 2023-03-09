@@ -8,15 +8,14 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
-
 const Tech = () => {
   return (
 
     <div className={`mt-12 bg-black-100 rounded-[10px]`}>
       <div className={`bg-tertiary rounded-2xl ${styles.paddingX} min-h-[50px]`}>
-        <motion.div variants={textVariant()}>
-          <p className={styles.sectionSubText}>Tech Stack</p>
-        </motion.div>
+        <h2 className={`${styles.sectionHeadText}`}>
+          Technology Stack
+        </h2>
       </div>
       <div className={`-mt-20 pb-14 ${styles.padding} flex flex-wrap-7`}>
 
@@ -168,4 +167,4 @@ const Tech = () => {
   );
 };
 
-export default SectionWrapper(Tech, "");
+export default SectionWrapper(Tech, "tech");
