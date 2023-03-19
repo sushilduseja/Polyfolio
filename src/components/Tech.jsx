@@ -17,7 +17,7 @@ const Tech = () => {
           Technology Stack
         </h2>
       </div>
-      <div className={`-mt-20 pb-14 ${styles.padding} flex flex-wrap-7`}>
+      <div className={`pb-14 ${styles.padding} flex flex-wrap`}>
 
         <List>
           <ListItem>
