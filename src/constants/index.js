@@ -54,6 +54,16 @@ import {
   
   const experiences = [
     {
+      title: "Vice President | FX Business Analyst/Project Manager",
+      company_name: "Barclays",
+      date: "March 2023 - Present",
+      points: [
+        "Streamlining product development through a contemporary, modular design that ensured adaptability, scalability, and robustness.",
+        "Facilitating data-centric and analytics-based solutions for improved product offerings and services.",
+        "Enabling tailored user experiences, encompassing the full spectrum of FX products and services.",
+      ],
+    },
+    {
       title: "Vice President",
       company_name: "Commerzbank",
       date: "September 2017 - July 2022",
